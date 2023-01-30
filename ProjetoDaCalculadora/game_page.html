@@ -1,0 +1,47 @@
+<html>
+    <body onload="carregar()">
+        <meta name="vieport" content="width-device-width, initial=scale-1">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        
+        <div class="container">
+          <h3> <span id="legendaNome1"></span>a<span id="pontos1">0</span></h3>  
+          <h3> <span id="legendaNome2"></span>a<span id="pontos2">0</span></h3>
+     
+            <center>
+           
+                <h2 id="title" style="color: rgb(5, 78, 143);">Quiz de Matemática!</h2>
+                <h3>Turno de Pergunta:</h3><h3 id="jogadorPergunta"></h3>
+                <h3>Turno de Resposta:</h3><h3 id="jogadorResposta"></h3>
+                <div id="output" class="container">
+                    <br>
+                    <br>
+                <h2 id="numero" >6 X 4</h2>
+                <h3>answer:</h3><input id="resposta">  
+                <button onclick="checar()" id="verificar">Verificar</button>    
+                   
+                    <br>
+                </div>
+                <h5>Número 1</h5>
+                <input id="numero1">
+                <br>
+                <br>
+                <h5>Número 2</h5>
+                <input id="numero2">
+                <br>
+                <br>
+                <button onclick="send()" id="botaoEnviar">Enviar</button>
+            </center>
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+
+
+
+
+
+
+
+</html>

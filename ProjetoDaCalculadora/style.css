@@ -1,0 +1,25 @@
+body{
+background-image:linear-gradient(lightblue, rgb(252, 185, 195));
+text-align:center;
+}
+button{
+width: 200; height: 100; border-radius: 25%; background-color: rgb(253, 206, 213);
+}
+input{
+    width: 250; height: 30;
+}
+#output
+{
+background-image:linear-gradient(rgb(62, 189, 240), rgb(240, 62, 172) );
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float:none;
+text-align:center;
+}
+#botaoEnviar
+{
+background-color: green;
+
+
+}
